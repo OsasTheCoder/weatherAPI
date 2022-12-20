@@ -1,0 +1,29 @@
+body {
+    background: gray;
+}
+.great {
+    max-width: 900px;
+    color:  #000000;
+    margin: 40px 60px 40px 60px;
+    font-family: 'PT Serif', serif;
+}
+.search-button {
+    text-align: center;
+    border: 5px solid #302619;
+    border-radius: 8px;
+    padding: 1px;
+    font-family: 'PT Serif', serif;
+
+
+}
+.btn {
+    border: 8px solid #302619;
+    border-radius: 8px;
+    padding: 1px;
+    font-family: 'PT Serif', serif;
+    background-color: gray;
+    font-weight: bold;
+    
+
+
+}
