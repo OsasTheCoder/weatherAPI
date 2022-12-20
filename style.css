@@ -24,6 +24,7 @@ body {
     background-color: gray;
     font-weight: bold;
     
-
-
+}
+small {
+    text-align: center;
 }
