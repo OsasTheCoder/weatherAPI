@@ -1,27 +1,24 @@
 body {
-    background: gray;
+    background-image: url("https://images.unsplash.com/photo-1608847421970-f9cf679615f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTZ8fGxhZ29zJTIwbmlnZXJpYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");
+   
 }
-.great {
+.weather-app-wrapper {
+    background: linear-gradient(to top, #DAD4EC 0%, #DAD4EC 1%, #F3E7E9 100%);
+    border: 6px solid #302619;
+    border-radius: 8px;
+    padding: 15px;
+    font-family: 'PT Serif', serif;
     max-width: 900px;
-    color:  #000000;
     margin: 40px 60px 40px 60px;
     font-family: 'PT Serif', serif;
 }
-.search-button {
-    text-align: center;
+
+
+.btn {
     border: 5px solid #302619;
     border-radius: 8px;
     padding: 1px;
     font-family: 'PT Serif', serif;
-
-
-}
-.btn {
-    border: 8px solid #302619;
-    border-radius: 8px;
-    padding: 1px;
-    font-family: 'PT Serif', serif;
-    background-color: gray;
     font-weight: bold;
     
 }
@@ -29,9 +26,11 @@ body {
     max-width: 900px;
     margin: 30px auto;
 }
+
 li {
     text-transform: capitalize;
     list-style: none;
+    color: #f65282;
 }
 .weather-temperature .active {
     color:rgb(33, 33, 33);
@@ -47,7 +46,7 @@ li {
 
 }
 .weather-temperature strong {
-    color: rgb(33, 33, 33);
+    color:   #212121;
     font-size: 64px;
     line-height: 1;
     font-weight: 400;
@@ -58,3 +57,22 @@ li {
     font-size: 16px;
     top: -34px;
 }
+.link {
+    text-align: center;
+    margin-top: -25px;
+    font-size: 25px;
+    font-weight: 10px;
+
+}
+#city {
+    color:   #212121;
+    font-weight: 700;
+
+} 
+.weather-forecast {
+    color: #212121;
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
